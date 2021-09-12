@@ -60,8 +60,7 @@ void oddeven() {
   }
 }
 
-int main()
-{
+int main() {
   max();
   min();
   oddeven();

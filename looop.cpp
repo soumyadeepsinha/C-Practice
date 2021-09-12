@@ -2,20 +2,16 @@
 using namespace std;
 
 int main() {
-  int i, j, k;
+  int c, n, s = 0;
   cout << "ENter the NUmber for LOop : " << endl;
-  cin >> j;
-  cout << "ENter the VAlue for K : " << endl;
-  cin >> k;
+  cin >> n;
 
-  for (i = 1; i < j; i++) {
-    cout << "HEllo WOrld of C++" << endl;
-    if (i == k && j == k) {
-      break;
-    } else {
-      continue;
-    }
+  for (c = 1; c <= n; c++) {
+    cout << endl << "Values are : " << c << endl;
+    s = s + c;
   }
-  
+
+  cout << "Value of Sum of : " << s << endl;
+
   return 0;
 }

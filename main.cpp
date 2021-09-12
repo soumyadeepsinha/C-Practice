@@ -9,8 +9,7 @@ void print_function() {
     // cout<<"Hello Guys Welcome to C++ Code"<<endl; 
 }
 
-int main()
-{
+int main() {
     print_function();
     return 0;
 }
